@@ -1,0 +1,99 @@
+/*
+  Globalni stilovi za IFDB aplikaciju.
+  Tema: Zelena-plava, moderan i čist izgled bez Tailwind utility klasa i varijabli.
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #e6f4f1;
+  color: #102a43;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+  transition: color 0.2s;
+}
+a:hover {
+  color: inherit;
+}
+
+button {
+  all: unset;
+}
+
+nav {
+  all: unset;
+}
+
+/* Ove promjene omogućuju da Tailwind utility klase imaju prednost nad globalnim stilovima za nav, button i a. */
+
+.main-content {
+  padding: 2rem;
+}
+.main-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+  color: #1e88e5;
+}
+
+/* Prikaz serija jedna do druge (responsive grid) */
+.show-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: flex-start;
+}
+
+.show-link {
+  text-decoration: none;
+  /* makni display: block; */
+}
+
+.show-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #0002;
+  transition: box-shadow 0.2s;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 210px;
+  min-width: 180px;
+  margin: 0;
+  height: 100%;
+}
+.show-card:hover {
+  box-shadow: 0 4px 16px #0003;
+}
+.show-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  cursor: pointer;
+}
+.show-info {
+  padding: 0.7em;
+}
+.show-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #102a43;
+  margin: 0 0 0.3em 0;
+}
+.show-rating {
+  font-size: 0.95rem;
+  color: #22c55e;
+}
+.loading, .no-more {
+  text-align: center;
+  margin: 2em 0;
+  color: #1e88e5;
+}
