@@ -15,8 +15,8 @@ Aplikacija za pregled i pretraživanje TV serija, glumaca i epizoda s mogućnoš
 
 1. Klonirajte repozitorij:
    ```bash
-   git clone <URL_VAŠEG_REPOZITORIJA>
-   cd IFDB2-main
+   git clone https://github.com/DTU24jd/IFDb.5/edit/main/README.md
+   cd IFDB-main
    ```
 
 2. Instalirajte ovisnosti:
@@ -50,13 +50,13 @@ npm start
 ##  Poznate greške / TODO
 
 - Favoriti se trenutno spremaju u cookie i nisu trajno vezani uz korisnički račun
-- Podržana je samo prijava putem Google računa
-- Sučelje nije u potpunosti prilagođeno mobilnim uređajima
+
+
 
 ---
 
 ## Bilješka autora
 
-Ovaj projekt razvijen je kao dio tečaja **Junior Dev** u organizaciji **Digitalna Dalmacija**. Cilj je bio savladati rad s API-ima, autentifikaciju korisnika te moderne alate poput Next.js-a, Tailwind CSS-a i NextAuth-a.
+Ovaj projekt razvijen je kao dio tečaja **JUNIOR Dev** u organizaciji **Digitalna Dalmacija**. Cilj je bio savladati rad s API-ima, autentifikaciju korisnika te moderne alate poput Next.js-a, Tailwind CSS-a i NextAuth-a.
 
 Projekt je edukativne prirode i trenutno je u aktivnom razvoju.
