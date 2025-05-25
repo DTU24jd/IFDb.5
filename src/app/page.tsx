@@ -101,11 +101,7 @@ export default function HomePage() {
       </div>
       {loading && <div className="text-center my-4">Učitavanje...</div>}
       {!hasMore && <div className="text-center my-4 text-gray-500">Nema više serija za prikaz.</div>}
-      <div className="text-center my-4">
-        <Link href="/signin" className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow transition mr-4">
-          Prijava s računom
-        </Link>
-      </div>
+     
     </main>
   );
 }
