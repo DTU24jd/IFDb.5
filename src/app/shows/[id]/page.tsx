@@ -135,11 +135,11 @@ export default async function ShowDetail({ params }: { params: Promise<{ id: str
             <div key={id + '-' + episode.id} className="border p-2 md:p-4 rounded bg-white shadow hover:shadow-lg transition">
               <Link href={`/shows/${id}/episodes/${episode.id}`} className="text-blue-700 hover:text-green-700 font-semibold text-base md:text-lg underline">
                 Sezona {episode.season}, Epizoda {episode.number}: {episode.name}
-              </Link>
+             
               <p className="text-xs md:text-sm text-gray-600">Datum emitiranja: {episode.airdate}</p>
               {episode.image && (
                 <Image src={episode.image.medium} alt={episode.name} className="mt-2 rounded border border-blue-100" width={210} height={295} />
-              )}
+              )}  </Link>
             </div>
           ))}
         </div>

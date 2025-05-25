@@ -25,8 +25,8 @@ export default async function EpisodeDetail({ params }: { params: Promise<{ id: 
       <Image
         src={episode.image?.medium || "/file.svg"}
         alt={episode.name}
-        width={210}
-        height={295}
+        width={150}
+        height={155}
         className="rounded mb-3 w-full object-cover aspect-[2/3] bg-gray-100 show-img cursor-pointer hover:opacity-80 transition"
       />
       <div className="mb-2">Sezona: {episode.season}, Epizoda: {episode.number}</div>

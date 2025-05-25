@@ -26,7 +26,7 @@ export default async function EpisodesListPage({ params }: { params: Promise<{ i
           <div key={episode.id} className="border p-4 rounded bg-white shadow hover:shadow-lg transition">
             <Link href={`/shows/${id}/episodes/${episode.id}`} className="text-blue-700 hover:text-green-700 font-semibold text-lg underline">
               Sezona {episode.season}, Epizoda {episode.number}: {episode.name}
-            </Link>
+            
             <p className="text-sm text-gray-600">Datum emitiranja: {episode.airdate}</p>
             {episode.image && (
               <Image
@@ -36,7 +36,7 @@ export default async function EpisodesListPage({ params }: { params: Promise<{ i
                 height={295}
                 className="rounded mb-3 w-full object-cover aspect-[2/3] bg-gray-100 show-img cursor-pointer hover:opacity-80 transition"
               />
-            )}
+            )} </Link>
           </div>
         ))}
       </div>
