@@ -59,4 +59,3 @@ npm start
 
 Ovaj projekt razvijen je kao dio tečaja **JUNIOR Dev** u organizaciji **Digitalna Dalmacija**. Cilj je bio savladati rad s API-ima, autentifikaciju korisnika te moderne alate poput Next.js-a, Tailwind CSS-a i NextAuth-a.
 
-Projekt je edukativne prirode i trenutno je u aktivnom razvoju.
