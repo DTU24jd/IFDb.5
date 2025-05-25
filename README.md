@@ -50,7 +50,8 @@ npm start
 ##  Poznate greške / TODO
 
 - Favoriti se trenutno spremaju u cookie i nisu trajno vezani uz korisnički račun
-
+- Prijava na račun ne fukcionira
+- Veličina slika u stranicama epizoda
 
 
 ---
